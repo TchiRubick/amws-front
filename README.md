@@ -1,35 +1,29 @@
-# test-front
+# AMWS Front app
 
-This template should help get you started developing with Vue 3 in Vite.
+This is the front app for AMWS, build with VueJS 3.
 
-## Recommended IDE Setup
+## Installation
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+You need to have *NodeJS* and *NPM* installed
 
-## Customize configuration
+### Install the dependencies
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+`npm install`
 
-## Project Setup
+### Run the project
 
-```sh
-npm install
-```
+`npm run dev`
 
-### Compile and Hot-Reload for Development
+This project will be served on localhost:5173
 
-```sh
-npm run dev
-```
+## The API
 
-### Compile and Minify for Production
+Currently, this only handle localhost api on port 80.
 
-```sh
-npm run build
-```
+You need to dive more into the customization if you want to use this with another API domain.
 
-### Lint with [ESLint](https://eslint.org/)
+### Use this repository as a Api backend
 
-```sh
-npm run lint
-```
+<https://github.com/TchiRubick/amws-api>
+
+## Please contact me on <tchi.devica@gmail.com> if you have some question
